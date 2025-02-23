@@ -1,0 +1,96 @@
+html {
+  height: 100vh;
+  background-color: #151D20;
+  font-size: larger;
+}
+
+body {
+  margin: 20px;
+  font-family: monospace;
+}
+
+.info {
+  color: beige;
+}
+
+nav {
+  display: flex;
+}
+
+.small-txt {
+  font-size: small;
+}
+
+.class-badge, .name-tag {
+  border: 1px solid #b3dec1;
+  padding: 0 2ch;
+  margin: auto 0;
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.class-badge {
+  z-index: 1;
+  position: relative;
+  border-radius: 2ch 2ch 0 0;
+}
+
+.name-tag {
+  border-radius: 0 0 2ch 2ch;
+}
+
+.name{
+  text-align: center;
+  font-size: 30px;
+}
+
+.avatar {
+  width: 220px;
+  margin: -10px 0;
+  border-radius: 9px;
+  box-shadow: inset 0px -55px 104px -23px #303173;
+  object-fit: cover;
+  backdrop-filter: blur(3px);
+}
+
+.card {
+  width: min-content;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: space-around;
+  border: 8px solid #592941;
+  border-radius: 18px;
+  background: #000022;
+  background-image: url(./images/plazma-crop.jpg);
+  color: #B3DEC1;
+  display: flex;
+  align-items: stretch;
+}
+
+.information {
+  padding: 10px;
+  background: #0000004b;
+  margin-left: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.emphasis {
+  font-weight: bold;
+  font-size: larger;
+  white-space: nowrap;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+a:visited {
+  color: pink;
+}
+
+a {
+  color: aqua;
+}
